@@ -10,7 +10,7 @@ export { ProductTitle } from "./ProductTitle"
 
 
 //Crear ProductCard con las props del HOC y además {title,image,buttons}
-export  const ProductCard: ProductCardHOCProps =Object.assign(ProductCardHOC,{
+export  const ProductCard: ProductCardHOCProps = Object.assign(ProductCardHOC,{
     Title:ProductTitle,
     Image:ProductImage,
     Buttons: ProductButtons
